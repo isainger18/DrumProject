@@ -1,0 +1,24 @@
+.container {
+    background: url(bg.jpg) no-repeat center center fixed;
+    display: flex;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 10%;
+    height: 100px;
+    background: url(drum.jpg) no-repeat center center fixed;
+    color: white;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 20px;
+}
+button:focus {
+    outline: none;
+}
